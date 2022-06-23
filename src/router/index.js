@@ -1,12 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Snake from '../views/Snake.vue'
+import Snake from '../views/index.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/snackGame',
     name: 'Snake',
     component: Snake
   }
