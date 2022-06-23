@@ -1,8 +1,7 @@
 module.exports = {
-    "env": {
-        "browser": true,
-        "es6": true
-    },
+  env: {
+    node: true,
+  },
     "extends": [
         "eslint:recommended",
         "plugin:vue/essential"
@@ -18,6 +17,8 @@ module.exports = {
     "plugins": [
         "vue"
     ],
-    "rules": {
-    }
+    rules: {
+      'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+      'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    },
 };
