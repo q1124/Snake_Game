@@ -3,7 +3,7 @@
 module.exports = {
   pages: {
     index: {
-      entry: 'src/main.js',
+      entry: 'src/views/index.vue',
       title: '貪吃蛇',
     },
   },
