@@ -10,7 +10,7 @@ export default new Router({
   base: '/',
   routes: [
     {
-      path: '/snackGame/',
+      path: '/',
       name: 'Snake',
       component: Snake
     }
