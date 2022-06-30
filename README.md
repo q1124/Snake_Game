@@ -6,6 +6,7 @@
 SnakeGame [link](https://q1124.github.io/snackGame/#/)
 
 ## Technique & skill
+* Vue CLI2
 * Html
 * CSS
 * JS
