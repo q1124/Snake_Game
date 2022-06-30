@@ -1,3 +1,5 @@
+#文件[https://ithelp.ithome.com.tw/articles/10237170]
+
 #!/usr/bin/env sh
 # 當發生錯誤時終止腳本運行
 set -e
